@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Completo</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Formulário Completo</h1>
+    <form id="completoForm">
+    
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <label>Nome completo:</label>
+            <input type="text"><br>
+            <label>Data de nascimento:</label>
+            <input type="date"><br>
+            
+            <label>Gênero:</label>
+            <select id="genero">
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Outro</option>
+                <option>Prefiro não informar</option>
+            </select><br>
+            
+            <label >Nacionalidade:</label>
+            <input type="text"><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Informações de Contato</legend>
+            <label>Endereço de e-mail:</label>
+            <input type="email"><br>
+            
+            <label>Número de telefone:</label>
+            <input type="tel"><br>
+            
+            <label for="endereco">Endereço residencial:</label>
+            <input type="text"><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Informações Profissionais</legend>
+            <label>Empresa atual:</label>
+            <input type="text"><br>
+            
+            <label>Cargo:</label>
+            <input type="text"><br>
+            
+            <label for="experiencia">Experiência de trabalho:</label>
+            <textarea ></textarea><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações Educacionais</legend>
+            <label >Nível de educação:</label>
+            <select id="educacao">
+                <option >Ensino Fundamental</option>
+                <option >Ensino Médio</option>
+                <option >Ensino Superior</option>
+                <option >Pós-graduação</option>
+                <option >Mestrado</option>
+                <option >Doutorado</option>
+                <option >Pós-doutorado</option>
+            </select><br>
+            
+            <label>Instituição de ensino:</label>
+            <input type="text"><br>
+            
+            <label for="curso">Curso:</label>
+            <input type="text"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferências</legend>
+            <label >Preferências de comunicação:</label>
+            <textarea id="comunicacao"></textarea><br>
+            
+            <label>Interesses pessoais:</label>
+            <textarea id="interesses" ></textarea><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Autenticação</legend>
+            <label>Nome de usuário:</label>
+            <input type="text"><br>
+            
+            <label>Senha:</label>
+            <input type="password"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações Adicionais</legend>
+            <label>Comentários ou perguntas:</label>
+            <textarea id="comentarios"></textarea><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações de Mídia Social</legend>
+            <label >Link do perfil do LinkedIn:</label>
+            <input type="url"><br>
+            
+            <label>Link do perfil do Facebook:</label>
+            <input type="url"><br>
+            
+            <label>Link do perfil do Twitter:</label>
+            <input type="url"><br>
+            
+            <label>Link do perfil do Instagram:</label>
+            <input type="url"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações de Emergência</legend>
+            <label>Contato de emergência:</label>
+            <input type="text"><br>
+            
+            <label>Relação com o contato de emergência:</label>
+            <input type="text"><br>
+            
+            <label>Número de telefone do contato de emergência:</label>
+            <input type="tel"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações Demográficas</legend>
+            <label>Idioma preferido:</label>
+            <input type="text"><br>
+            
+            <label>Etnia:</label>
+            <input type="text"><br>
+            
+            <label>Estado civil:</label>
+            <select id="estado_civil">
+                <option >Solteiro(a)</option>
+                <option >Casado(a)</option>
+                <option >Divorciado(a)</option>
+                <option >Viúvo(a)</option>
+            </select><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações de Saúde</legend>
+            <label>Condições de saúde preexistentes:</label>
+            <textarea></textarea><br>
+            
+            <label>Alergias:</label>
+            <textarea></textarea><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações Financeiras</legend>
+            <label>Salário atual:</label>
+            <input type="number"><br>
+            
+            <label>Expectativa salarial:</label>
+            <input type="number"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Documentos</legend>
+            <label>Upload de currículo:</label>
+            <input type="file"><br>
+            
+            <label>Upload de carta de apresentação:</label>
+            <input type="file"><br>
+            
+            <label>Upload de certificados ou diplomas:</label>
+            <input type="file"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações de Viagem</legend>
+            <label>Países visitados:</label>
+            <textarea></textarea><br>
+            
+            <label>País de residência:</label>
+            <input type="text"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações de Habilidades</legend>
+            <label>Habilidades técnicas:</label>
+            <textarea></textarea><br>
+            
+            <label>Habilidades interpessoais:</label>
+            <textarea></textarea><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Referências</legend>
+            <label>Nome da referência:</label>
+            <input><br>
+            <label>Relação com a referência:</label>
+            <input type="text"><br>
+            
+            <label>Contato da referência:</label>
+            <input type="tel"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Consentimentos</legend>
+            <label>
+                <input type="checkbox" >
+                Concordo com a política de privacidade
+            </label><br>
+            
+            <label>
+                <input type="checkbox">
+                Concordo com os termos de serviço
+            </label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Termos e Condições</legend>
+            <label>
+                <input type="checkbox">
+                Aceito os termos e condições
+            </label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Ações</legend>
+            <button type="submit">Enviar</button>
+            <button type="reset">Resetar</button>
+        </fieldset>
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>
